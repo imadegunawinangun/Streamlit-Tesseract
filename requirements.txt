@@ -5,7 +5,9 @@ opencv-python-headless
 pytesseract
 pdf2image
 scipy
-# pillow
+pillow
+python-docx
+reportlab
 # imutils
 # pandas
 # easyocr

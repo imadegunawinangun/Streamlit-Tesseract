@@ -1,4 +1,12 @@
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
 
 # Environments
 .env
@@ -9,9 +17,16 @@ ENV/
 env.bak/
 venv.bak/
 
+# IDE
 .vscode/
+.idea/
+
+# Git
 .gitattributes
 .gitignore
+.git/
+
+# Project files
 .sourcery.yaml
 LICENSE
 *.md
@@ -19,3 +34,14 @@ LICENSE
 *.pdf
 *.jpg
 *.png
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# Project specific
+data/
+templates/
+
+# OS specific
+.DS_Store
+Thumbs.db

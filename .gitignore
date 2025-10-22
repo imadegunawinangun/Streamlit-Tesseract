@@ -257,4 +257,11 @@ node_modules/
 
 # Task files
 # tasks.json
-# tasks/ 
+# tasks/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# Project specific
+data/
+templates/
